@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), "WHY WON'T YOU GO WITH SMALL NUMBERS", Toast.LENGTH_SHORT).show();
         }
 
-        if (attemptCount >=19) {
+        if (attemptCount >=6) {
             Toast.makeText(getApplicationContext(), "ATTEMPT OVER RESTART THE GAME", Toast.LENGTH_SHORT).show();
             Intent intent = new Intent(MainActivity.this, End_page.class);
             intent.putExtra("KEY_SEND",lose);
